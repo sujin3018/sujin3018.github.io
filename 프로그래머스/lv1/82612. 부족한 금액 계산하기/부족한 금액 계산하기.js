@@ -1,29 +1,17 @@
-// function solution(price, money, count) {
-    
-//     var sum =0;
-//     for(var i=1;i<=count;i++){
-//       sum += price * i;
-//     } 
-
-//     return sum - money ;
-// }
-
+3
+4
+5
+6
+7
+8
+9
+10
 function solution(price, money, count) {
-    let answer
-    if(count % 2 === 0){
-       const startPrice = price
-       const endPrice = price * count
+    let answer = 0;
 
-       const pay = (startPrice + endPrice) * (count / 2)
-       answer = pay - money
-    }   
-    else{
-       const startPrice = price
-       const endPrice = price * count
-
-       const pay = (startPrice + endPrice) * Math.floor(count / 2) + (endPrice+startPrice) / 2
-       answer = pay - money
+    for (let i = 1; i <= count; i++) {
+        answer += price * i;
     }
 
-    return answer > 0 ? answer : 0
+    return answer > money ? answer - money : 0;
 }
