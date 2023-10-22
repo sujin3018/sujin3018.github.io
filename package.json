@@ -49,7 +49,11 @@
   },
   "start": "node index.js",
   "dev": "nodemon index.js"
+<<<<<<< HEAD
 ,
   "homepage": "https://sujin3018.github.io"
 }
 
+=======
+}
+>>>>>>> refs/remotes/origin/main
