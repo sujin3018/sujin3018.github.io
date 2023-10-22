@@ -48,9 +48,7 @@
     ]
   },
   "start": "node index.js",
-  "dev": "nodemon index.js"
-<<<<<<< HEAD
-,
+  "dev": "nodemon index.js",
   "homepage": "https://sujin3018.github.io"
 }
 
