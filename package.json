@@ -52,5 +52,5 @@
   },
   "start": "node index.js",
   "dev": "nodemon index.js",
-  "homepage": "https://github.com/sujin3018/sujin3018.github.io.git"
+  "homepage": "https://github.com/sujin3018.github.io"
 }
