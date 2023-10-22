@@ -48,10 +48,5 @@
     ]
   },
   "start": "node index.js",
-  "dev": "nodemon index.js",
-  "homepage": "https://sujin3018.github.io"
+  "dev": "nodemon index.js"
 }
-
-=======
-}
->>>>>>> refs/remotes/origin/main
