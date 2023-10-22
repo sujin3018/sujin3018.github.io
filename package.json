@@ -28,9 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "node server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -52,5 +50,5 @@
   },
   "start": "node index.js",
   "dev": "nodemon index.js",
-  "homepage": "https://github.com/sujin3018.github.io"
+  "homepage": "https://sujin3018.github.io/"
 }
